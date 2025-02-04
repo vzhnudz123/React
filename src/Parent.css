@@ -1,0 +1,25 @@
+
+.a{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    
+}
+.b{
+    background-color: bisque;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border: solid black 2px;
+    height: 250px;
+    width: 300px;
+    padding-top: 50px;
+
+}
+.imgs{
+    height: 10px;
+    width: 10px;
+    border-radius: 100px;
+}

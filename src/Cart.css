@@ -1,0 +1,42 @@
+.itm{
+    display: flex;
+    gap: 60px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 40px;
+    
+}
+.itms{
+    border: solid black 3px;
+    border-radius: 10px;
+    height: 526px;
+
+}
+.apple {
+    text-align: center;
+    font-size: 48px; 
+    font-weight: bold; 
+    background: linear-gradient(45deg, #FF5733, #33FF57, #3357FF, #F2A2D2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.buy{
+    background-color: orange;
+    padding: 12px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.col{
+    color: yellow;
+}
+.image{
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.main{
+    
+    height: 750px;
+}
+
