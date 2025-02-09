@@ -1,0 +1,75 @@
+.main{
+    
+    background-size: cover;
+    height: 1500px;
+}
+   
+.to{
+    color: white;
+    text-decoration: solid white ;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.sign{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 70px;
+}
+.get{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+.con{
+    position: relative;
+    margin-top: 100px;
+    text-align: center;
+    
+
+}
+.content {
+    position: absolute;
+    top: 90px;
+    left: 50%; 
+    transform: translate(-50%, -50%); /* Perfectly center the element */
+    font-size: 200px;
+    color: red;
+    font-weight: bolder;
+    letter-spacing: -15px;
+    
+}
+.content2 {
+    position: absolute;
+    top: 150%;
+    left: 50%; 
+    transform: translate(-50%, 50%); /* Move down from the vertical center */
+    font-size: 200px;
+    color: red; 
+    font-weight: bolder;
+    letter-spacing: -15px;
+    
+}
+.dragon{
+    height: 100vh;
+    margin: 0;
+    height: auto;
+    margin-top: -400px !important;
+    z-index: 3;
+    position: absolute;
+    position: absolute;
+
+}
+.cutimg{
+    position: relative;
+    top: -13px;
+    
+    
+}
+  
+
+
+
+
+  

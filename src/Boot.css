@@ -1,0 +1,17 @@
+/* Reactboot.css (or inline style) */
+.bg-success {
+    position: relative; /* Optional: Ensures proper layout if using absolute positioning */
+    display: flex; /* Optional: Flexbox to center the image */
+    justify-content: center; /* Optional: Center horizontally */
+    align-items: center; /* Optional: Center vertically */
+    height: 100vh; /* Optional: Makes the container fill the entire viewport */
+    margin: 0; /* Remove default margin from the container */
+    padding: 0; /* Remove padding if there's any by default */
+}
+
+img {
+    display: block; /* Prevents any inline behavior that might add extra space */
+    max-width: 100%; /* Makes sure the image scales to fit the container */
+    height: auto; /* Maintains aspect ratio */
+    margin: 0; /* Removes any margins from the image */
+}
