@@ -2,7 +2,11 @@
     
     background-size: cover;
     height: 1500px;
+
+    
 }
+
+
    
 .to{
     color: white;
@@ -38,8 +42,19 @@
     color: red;
     font-weight: bolder;
     letter-spacing: -15px;
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide the content that overflows */
+    animation: typ 3s steps(30) 1s forwards; /* Adjusted the animation settings */
     
 }
+@keyframes typ {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 10ch; /* Final width after animation */
+    }
+  }
 .content2 {
     position: absolute;
     top: 150%;
@@ -49,6 +64,7 @@
     color: red; 
     font-weight: bolder;
     letter-spacing: -15px;
+
     
 }
 .dragon{
@@ -67,6 +83,50 @@
     
     
 }
+.ani {
+    width: 0ch; 
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typing 3s steps(30) 1s forwards; 
+    font-size: 50px;
+    color: black; 
+    margin-left: 430px;
+    border: 1px solid black;
+    background-color: orangered;
+    box-shadow: black 1px 1px;
+    color: white;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0ch;
+    }
+    to {
+      width: 20ch; /* Final width after animation */
+    }
+  }
+  .text-center{
+    height: 300px;
+    padding: 50px;
+    font-size: 100px;
+  }
+  .thinkk{
+    height: 400px;
+    padding-left: 530px;
+    padding-bottom: 50px;
+  }
+  .last{
+    background-color: orangered;
+    height: 100px;
+    margin-top: 400px;
+    text-align: center;
+    padding-top: 20px;
+    }
+    .copy{
+      color: white;
+      font-size: 10px;
+    }
+  
   
 
 

@@ -15,10 +15,10 @@ const Apitask = () => {
 
             <div className="row justify-content-center">
                 {data.map((item) => (
-                    <div className="col-md-3 mb-3" key={item.id}>
-                        <div className="card bg-danger text-white p-4">
-                            <h3 className="text-center">{item.userId}</h3>
-                            <h4 className="text-center">{item.title}</h4>
+                    <div className="col-md-3 mb-3 s " key={item.id}>
+                        <div className="card bg-danger text-white p-2">
+                            <h3 className="text-center fs-4 h-25">{item.userId}</h3>
+                            <h4 className="text-center fs-4 h-25 ">{item.title}</h4>
                         </div>
                     </div>
                 ))}

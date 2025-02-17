@@ -1,0 +1,78 @@
+.main{
+    text-align: center;
+}
+.head{
+    padding-top: 100px;
+    color: orangered;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+.cards {
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin-top: 100px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    transition: backdrop-filter 0.3s ease;
+    
+}
+.one{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    margin-top: 30px;
+}
+.two{
+    color: rgb(0, 0, 0);
+}
+.three{
+    color: rgb(0, 0, 0);
+}
+.butt{
+    color: orangered;
+    height: 30px;
+    width: 60px;
+    border-radius: 9px;
+    margin-left: 10px;
+    border: 5px;
+    color: white;
+    font-size: 12px;
+    background-color: orangered;
+    box-shadow: 1px 1px 1px black;
+}
+.searchbox{
+    border-radius: 5px;
+    border: 2px;
+    box-shadow: 2px 1px 1px;
+}
+.sun{
+    position: absolute;
+    top: 70px;
+    display: flex;
+    z-index: 10;
+    animation: rotateSun 10s linear infinite;
+
+}
+@keyframes rotateSun {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
+}
+.sun:hover {
+    animation: none; 
+}
+.megam{
+    position: absolute;
+    padding-left: 300px;
+    top: 100px;
+}
+.megam1{
+    position: relative;
+    bottom: 500px;
+    right: 130px;
+    
+
+}
