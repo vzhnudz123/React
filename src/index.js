@@ -47,6 +47,17 @@ import Detailscar from './Detailscar';
 import App from './props/App';
 import { Testcar } from './Testcar';
 import Updatepage from './Updatepage';
+import Bookadd from './Bookapp/Bookadd';
+import Bookview from './Bookapp/Bookview';
+import Bookdel from './Bookapp/Bookdel';
+import Bookupdate from './Bookapp/Bookupdate';
+import Bookimg from './Bookapp/Bookimg';
+import Logins from './Loginpage/Logins';
+import { Profile } from './Loginpage/Profile';
+import { Minilogin } from './miniproject/Minilogin';
+import Blog from './BLOG/Blog';
+import Blogregister from './BLOG/Blogregister';
+import { Bloglogin } from './BLOG/Bloglogin';
 
 
 
@@ -87,6 +98,18 @@ root.render(
       <Route path='/testcar' element={<Testcar></Testcar>}></Route>
       <Route path='/form' element={<Forms></Forms>}></Route>
       <Route path='/update/:id' element={<Updatepage></Updatepage>}></Route>
+      <Route path='/bookadd' element={<Bookadd></Bookadd>}></Route>
+      <Route path='/bookview' element={<Bookview></Bookview>}></Route>
+      <Route path='/bookupdate/:id' element={<Bookupdate></Bookupdate>}></Route>
+      <Route path='/bookimg' element={<Bookimg></Bookimg>}></Route>
+      <Route path='/logins' element={<Logins></Logins>}></Route>
+      <Route path='/profile' element={<Profile></Profile>}></Route>
+      <Route path='/minilogin' element={<Minilogin></Minilogin>}></Route>
+      <Route path='/blog' element={<Blog></Blog>}></Route>
+      <Route path='/blogregister' element={<Blogregister></Blogregister>}></Route>
+      <Route path='/bloglogin' element={<Bloglogin></Bloglogin>}></Route>
+      
+
 
 
       
