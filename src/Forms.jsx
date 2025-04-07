@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { useState } from 'react'
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -9,9 +10,12 @@ const Forms = () => {
         setData({...data,[event.target.name]:event.target.value})
     }
 
-    const submit=(event)=>{
+    const submit=async(event)=>{
         event.preventDefault()
+        let response=await axios.post("http://localhost:8000/user/adduser",data)
         setData(data);
+        console.log(response);
+    
         console.log(data);
         toast.error("success");
         
@@ -23,8 +27,8 @@ const Forms = () => {
             <label htmlFor="">name</label>
             <input type="text" onChange={handlechange} name='name'/>
             <label htmlFor="">email</label>
-            <input type="email" onChange={handlechange} name='email' />
-
+            <input type="text" onChange={handlechange} name='description' />
+            
             <button type='submit'>submit</button>
             {/* <button onClick={submit}>Make me a toast</button> */}
             <Toaster />

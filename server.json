@@ -1,0 +1,246 @@
+{
+  "carShowroom": {
+    "cars": [
+      {
+        "id": 1,
+        "name": "Tesla Model S",
+        "details": {
+          "manufacturer": "Tesla",
+          "year": 2023,
+          "price": "$94,990",
+          "features": [
+            "Electric",
+            "Autopilot",
+            "Long Range",
+            "All-Wheel Drive"
+          ],
+          "engine": "Dual Motor Electric",
+          "horsepower": "1020 hp",
+          "topSpeed": "200 mph",
+          "mileage": "396 miles per charge"
+        },
+        "image": "https://www.tesla.com/sites/default/files/modelsx-new/social/model-s-hero-social.jpg"
+      },
+      {
+        "id": 2,
+        "name": "BMW M4",
+        "details": {
+          "manufacturer": "BMW",
+          "year": 2023,
+          "price": "$71,800",
+          "features": [
+            "Turbocharged Engine",
+            "All-Wheel Drive",
+            "M Sport Suspension",
+            "Leather Upholstery"
+          ],
+          "engine": "3.0L I6 Twin-Turbo",
+          "horsepower": "473 hp",
+          "topSpeed": "155 mph",
+          "mileage": "20 mpg city / 27 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1614026480209-cd9934144671?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 3,
+        "name": "Audi A6",
+        "details": {
+          "manufacturer": "Audi",
+          "year": 2023,
+          "price": "$55,000",
+          "features": [
+            "Quattro All-Wheel Drive",
+            "Virtual Cockpit",
+            "LED Headlights",
+            "Adaptive Cruise Control"
+          ],
+          "engine": "2.0L I4 Turbocharged",
+          "horsepower": "248 hp",
+          "topSpeed": "130 mph",
+          "mileage": "24 mpg city / 32 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1596564239685-09d2e88e1bb9?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 4,
+        "name": "Ford Mustang",
+        "details": {
+          "manufacturer": "Ford",
+          "year": 2023,
+          "price": "$27,000",
+          "features": [
+            "Iconic Muscle Car",
+            "Rear-Wheel Drive",
+            "Turbocharged Engine",
+            "Premium Sound System"
+          ],
+          "engine": "2.3L EcoBoost I4",
+          "horsepower": "310 hp",
+          "topSpeed": "155 mph",
+          "mileage": "21 mpg city / 30 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1547744152-14d985cb937f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 5,
+        "name": "Chevrolet Corvette",
+        "details": {
+          "manufacturer": "Chevrolet",
+          "year": 2023,
+          "price": "$60,000",
+          "features": [
+            "Mid-Engine Layout",
+            "8-Speed Dual-Clutch Transmission",
+            "Rear-Wheel Drive",
+            "Bose Performance Series Audio"
+          ],
+          "engine": "6.2L V8",
+          "horsepower": "495 hp",
+          "topSpeed": "194 mph",
+          "mileage": "15 mpg city / 27 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1577629069421-ddbe32ef8009?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 6,
+        "name": "Mercedes-Benz S-Class",
+        "details": {
+          "manufacturer": "Mercedes-Benz",
+          "year": 2023,
+          "price": "$111,000",
+          "features": [
+            "MBUX Infotainment System",
+            "Active Brake Assist",
+            "Magic Body Control",
+            "All-Wheel Drive"
+          ],
+          "engine": "3.0L I6 Turbo with EQ Boost",
+          "horsepower": "429 hp",
+          "topSpeed": "155 mph",
+          "mileage": "21 mpg city / 28 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1657976763238-baab2fee9c53?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 7,
+        "name": "Lamborghini Aventador",
+        "details": {
+          "manufacturer": "Lamborghini",
+          "year": 2023,
+          "price": "$500,000",
+          "features": [
+            "V12 Engine",
+            "All-Wheel Drive",
+            "Adaptive Suspension",
+            "Carbon Fiber Elements"
+          ],
+          "engine": "6.5L V12",
+          "horsepower": "730 hp",
+          "topSpeed": "217 mph",
+          "mileage": "9 mpg city / 15 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?q=80&w=1995&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 8,
+        "name": "Porsche 911",
+        "details": {
+          "manufacturer": "Porsche",
+          "year": 2023,
+          "price": "$101,200",
+          "features": [
+            "Rear-Wheel Drive",
+            "Adaptive Cruise Control",
+            "Porsche Active Suspension Management",
+            "Sport Chrono Package"
+          ],
+          "engine": "3.0L Turbocharged H6",
+          "horsepower": "379 hp",
+          "topSpeed": "182 mph",
+          "mileage": "20 mpg city / 28 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 9,
+        "name": "Porsche ",
+        "details": {
+          "manufacturer": "Porsche",
+          "year": 2023,
+          "price": "$43,000",
+          "features": [
+            "Turbocharged Engine",
+            "Rear-Wheel Drive",
+            "Adaptive Variable Suspension",
+            "8.8-inch Touchscreen"
+          ],
+          "engine": "3.0L Inline-6 Turbo",
+          "horsepower": "382 hp",
+          "topSpeed": "155 mph",
+          "mileage": "22 mpg city / 30 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 10,
+        "name": "Nissan GT-R",
+        "details": {
+          "manufacturer": "Nissan",
+          "year": 2023,
+          "price": "$115,000",
+          "features": [
+            "Turbocharged V6",
+            "All-Wheel Drive",
+            "Sport Mode",
+            "Brembo Brakes"
+          ],
+          "engine": "3.8L V6 Twin-Turbo",
+          "horsepower": "565 hp",
+          "topSpeed": "196 mph",
+          "mileage": "16 mpg city / 22 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1730299236588-d4883f82448a?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 11,
+        "name": "Jaguar F-Type",
+        "details": {
+          "manufacturer": "Jaguar",
+          "year": 2023,
+          "price": "$64,000",
+          "features": [
+            "Supercharged V8",
+            "Adaptive Dynamics",
+            "All-Wheel Drive",
+            "12-Inch Touchscreen"
+          ],
+          "engine": "5.0L V8 Supercharged",
+          "horsepower": "575 hp",
+          "topSpeed": "186 mph",
+          "mileage": "16 mpg city / 24 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1597220669155-4a3e59232dc9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "id": 12,
+        "name": "Bentley Continental GT",
+        "details": {
+          "manufacturer": "Bentley",
+          "year": 2023,
+          "price": "$231,800",
+          "features": [
+            "6.0L W12 Engine",
+            "All-Wheel Drive",
+            "Heated Seats",
+            "Panoramic Roof"
+          ],
+          "engine": "6.0L W12 Twin-Turbo",
+          "horsepower": "626 hp",
+          "topSpeed": "207 mph",
+          "mileage": "12 mpg city / 18 mpg highway"
+        },
+        "image": "https://images.unsplash.com/photo-1471289549423-04adaecfa1f1?q=80&w=2005&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      }
+    ]
+  }
+}

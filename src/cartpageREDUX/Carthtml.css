@@ -1,0 +1,192 @@
+/* General container settings */
+.carousel-container {
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+.carousel-img {
+    width: 100%;
+    height: auto;
+}
+
+/* Search bar styling */
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.search input {
+    padding: 8px;
+    margin-left: 10px;
+    flex: 1;
+    font-size: 14px;
+}
+
+.search button {
+    padding: 8px;
+    background-color: #FF9900;
+    border: none;
+    cursor: pointer;
+}
+
+/* Product Section */
+.product-container {
+    position: relative;
+    width: 180px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.buy-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #FF9900;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #FF6600;
+}
+
+/* Mobile product section */
+.mobile-products .d-flex {
+    flex-wrap: wrap;
+}
+
+.mobile-products h1 {
+    margin-bottom: 30px;
+}
+
+.shopping-deals {
+    margin-top: 40px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+/* Navigation bar styling */
+.nb {
+    padding: 10px;
+    background-color: #232f3e;
+    color: white;
+}
+
+.nb h3 {
+    cursor: pointer;
+}
+
+.text-light {
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .product-container {
+        width: 100%;
+        max-width: 150px;
+        margin: 10px auto;
+    }
+
+    .carousel-img {
+        height: auto;  /* Make carousel images responsive */
+    }
+
+    .search input,
+    .search button {
+        width: 100%;
+    }
+
+    /* Styling for mobile product container */
+    .mobile-products .d-flex {
+        justify-content: space-around;
+    }
+
+    .buy-button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    /* Adjust product image size for mobile */
+    .product-img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-container {
+        width: 100%;
+        max-width: 130px;
+    }
+
+    .carousel-img {
+        height: 80px;
+    }
+
+    .buy-button {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .product-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .search input,
+    .search button {
+        padding: 6px;
+    }
+
+    /* For mobile navigation, reduce font size */
+    .nb h3 {
+        font-size: 18px;
+    }
+
+    .text-light {
+        font-size: 14px;
+    }
+}

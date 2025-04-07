@@ -1,4 +1,4 @@
-.main{
+/* .main{
     
     background-size: cover;
     height: 1500px;
@@ -37,14 +37,14 @@
     position: absolute;
     top: 90px;
     left: 50%; 
-    transform: translate(-50%, -50%); /* Perfectly center the element */
+    transform: translate(-50%, -50%); 
     font-size: 200px;
     color: red;
     font-weight: bolder;
     letter-spacing: -15px;
-    white-space: nowrap; /* Prevent wrapping */
-    overflow: hidden; /* Hide the content that overflows */
-    animation: typ 3s steps(30) 1s forwards; /* Adjusted the animation settings */
+    white-space: nowrap; 
+    overflow: hidden; 
+    animation: typ 3s steps(30) 1s forwards; 
     
 }
 @keyframes typ {
@@ -52,14 +52,14 @@
       width: 0ch;
     }
     to {
-      width: 10ch; /* Final width after animation */
+      width: 10ch; 
     }
   }
 .content2 {
     position: absolute;
     top: 150%;
     left: 50%; 
-    transform: translate(-50%, 50%); /* Move down from the vertical center */
+    transform: translate(-50%, 50%);
     font-size: 200px;
     color: red; 
     font-weight: bolder;
@@ -102,7 +102,7 @@
       width: 0ch;
     }
     to {
-      width: 20ch; /* Final width after animation */
+      width: 20ch; 
     }
   }
   .text-center{
@@ -132,4 +132,4 @@
 
 
 
-  
+   */

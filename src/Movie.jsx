@@ -31,6 +31,8 @@ const Movie = () => {
             
         }
     }
+    console.log(data);
+    
 
     return (
         <div className="movie-container">

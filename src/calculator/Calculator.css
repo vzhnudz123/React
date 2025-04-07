@@ -1,0 +1,25 @@
+.m{
+    margin-left: 600px;
+    background-color: black;
+    width: 242px;
+    margin-top: 100px;
+    border-radius: 13px;
+}
+table{
+    size: 100px;
+}
+.tab{
+
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.tha{
+    margin-left: 20px;
+    color: white;
+}
+.in{
+    height: 50px;
+}

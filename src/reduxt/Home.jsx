@@ -17,8 +17,11 @@ import ph2 from './144pro.jpg';
 import ph3 from './ph6.webp';
 import ph4 from './ph7.webp';
 import './Home.css'
+import { useDispatch, useSelector } from 'react-redux';
 
 const Home = () => {
+
+
     const [toggle, setToggle] = useState(true);
 
     const togglecolor = () => {
@@ -50,18 +53,18 @@ const Home = () => {
                 </div>
 
                 <div className='d-flex gap-3 '>
-                    <Link to="/login" style={{ textDecoration: 'none' }}>
+                    <Link to="/Cart" style={{ textDecoration: 'none' }}>
                         <h2 className=' text-light'>Login</h2>
                     </Link>
                     <Link to="/contact" style={{ textDecoration: 'none' }}>
-                        <h2 className=' text-light'>Order</h2>
+                        <h2 className=' text-light'>Cart</h2>
                     </Link>
                 </div>
             </div>
 
             <div>
                 <Carousel className='h-6 p-2' autoPlay={true} showThumbs={false} showStatus={false} infiniteLoop={true} interval={1000}>
-                    <div id='top' className=''>
+                    <div className=''>
                         <img src={img} className='w-25 h-25' />
                     </div>
                     <div>
@@ -75,7 +78,7 @@ const Home = () => {
 
             <div>
                 <h1 className='fw-bold mt-20'>Continue shopping deals</h1>
-                <Link to="/Contact">
+                <Link to="/Cart">
                     <div className='w-25 d-flex gap-3'>
                         <img className='' src={pro} alt="" />
                         <img src={pro1} alt="" />
